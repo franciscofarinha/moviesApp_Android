@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="welcome_message">Bem-vindo</string>
+    <string name="overview">Descobre os filmes e séries do momento!</string>
+    <string name="footer">Carregar Mais</string>
+    <string name="now_playing">Filmes em exibição</string>
+    <string name="now_playing_short">Em exibição</string>
+    <string name="popular_tv">Séries Populares</string>
+    <string name="popular_tv_short">Séries Populares</string>
+    <string name="top_rated">Mais Votados</string>
+    <string name="upcoming">Brevemente</string>
+    <string name="first_login">First Login!</string>
+    <string name="network_changed_msg">network changed</string>
+    <string name="language_value">pt-PT</string>
+    <string name="no_description_available">Sem descrição</string>
+    <string name="region">PT</string>
+    <string name="loading">a carregar</string>
+    <string name="connect_wifi">Verifique a sua conecção à internet</string>
+    <string name="loaded_on">Lista de:</string>
+    <string name="loaded_at">às</string>
+    <string name="no_internet">sem conecção</string>
+    <string name="share_message_1">O filme</string>
+    <string name="share_message_2">tem a classificação de</string>
+    <string name="share_message_3">estrelas.</string>
+</resources>

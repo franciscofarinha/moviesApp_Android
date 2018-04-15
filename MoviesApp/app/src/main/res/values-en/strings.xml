@@ -1,0 +1,25 @@
+<resources>
+    <string name="language_value">en</string>
+    <string name="app_name">MoviesApp</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="overview">Find what movies and TV shows are out there right now</string>
+    <string name="footer">Load more!</string>
+    <string name="now_playing">Now Playing Movies</string>
+    <string name="popular_tv">Popular Tv Shows</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="first_login">First Login!</string>
+    <string name="network_changed_msg">network changed</string>
+    <string name="no_description_available">No description</string>
+    <string name="region">US</string>
+    <string name="loading">loading</string>
+    <string name="popular_tv_short">Popular Tv</string>
+    <string name="now_playing_short">Now Playing</string>
+    <string name="connect_wifi">Check your internet connection</string>
+    <string name="loaded_on">List loaded on:</string>
+    <string name="loaded_at">at</string>
+    <string name="no_internet">no internet</string>
+    <string name="share_message_1">The movie</string>
+    <string name="share_message_2">has a</string>
+    <string name="share_message_3">rating.</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/movie_detail_screen_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:text="here goes title"
+        android:background="#000000"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/movie_detail_screen_poster"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/movie_detail_screen_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="textEnd"/>
+
+        <RatingBar
+            android:id="@+id/movie_detail_screen_rating_bar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="10"
+            android:stepSize="0.1" />
+
+        <ImageView
+            android:id="@+id/movie_detail_screen_share_button"
+            android:src="@mipmap/ic_share"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/movie_detail_screen_overview"
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="here goes overview"/>
+
+    </ScrollView>
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/movie_detail_screen_download_image_loader"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+         />
+
+
+
+</LinearLayout>

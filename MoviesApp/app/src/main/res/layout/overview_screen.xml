@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000">
+
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_popcorn"/>
+
+    <TextView
+        android:id="@+id/overview_screen_textview_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/overview_screen_textview_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find what movies and TV shows are out there right now"
+        android:textSize="30dp"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textColor="#B8B8B8"
+        android:layout_marginBottom="30dp"
+
+        />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/overview_screen_button_confirm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="40dp"
+        android:background="@color/blue1"
+        />
+
+
+
+
+
+</LinearLayout>
